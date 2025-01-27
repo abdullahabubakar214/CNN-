@@ -1,0 +1,689 @@
+/* Reset default margin and padding */
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.logo{
+  color: red;
+  font-size: 100px;
+  text-align: center;
+  background-color: #0c0c0c;
+  margin: 0;
+  padding: 30px 20px; 
+  /* position: relative; */
+ 
+}
+
+/* Reset default margin and padding for lists and anchor tags */
+ul, li, a{
+  margin: 0;
+  padding: 0;
+  color: #e6e6e6;
+
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Style the header */
+header {
+  background-color: #000000;
+  padding: 0px 32px;
+  border-top: 0.1px solid #e6e6e6; 
+  position: sticky;
+  top: 0; 
+}
+
+/* Style the navigation bar */
+nav {
+  display: flex; /* Display the navigation items in a row */
+  justify-content: space-between; /* Space between left and right bars */
+  align-items: center; /* Center items vertically within the header */
+}
+
+/* Style the left navigation bar */
+.nav-bar-left {
+  display: flex; /* Display the left navigation items in a row */
+  align-items: center;
+}
+
+/* Style the navigation items in the left bar */
+.nav-bar-left li {
+  margin-right: 20px; /* Adjust the spacing between items */
+}
+.nav-logo {
+ max-height: 20px;
+}
+
+.cnn-logo img {
+  max-height: 40px; 
+  margin-right: 10px; 
+}
+/* Style the right navigation bar */
+.nav-bar-right {
+  display: flex; /* Display the right navigation items in a row */
+  align-items: center;
+}
+
+/* Style the navigation items in the right bar */
+.nav-bar-right li {
+  margin-right: 20px; /* Adjust the spacing between items */
+}
+
+.search-logo{
+  color: #e6e6e6;
+}
+
+/* Style the login button */
+#Login {
+  padding: 8px 8px;
+  border: 0.1px solid #e6e6e6;
+  border-radius: 8px;
+  margin: 0px 0px 0px 10px;
+}
+
+/* Style the login button text */
+#Login a {
+  color: #e6e6e6; 
+}
+
+.nav-bar-left li a:hover {
+  color: white; 
+} 
+.nav-bar-right li a:hover {
+  color: white; 
+} 
+
+
+
+/*-------------------------Content---------------------------------------*/
+
+.headline-links{
+  display: flex;
+  justify-content:space-evenly;
+  padding: 40px 80px 0px 80px;
+}
+
+.headline-links li a{
+  color: #000000;
+}
+
+.headline-links li a:hover{
+  text-decoration: underline 1px #171717;
+}
+
+.content-article{
+  margin: 0px 10px 50px 10px;
+}
+.main-headline{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.main-headline:hover{
+  color: gray;
+  text-decoration: underline 1px #171717;
+}
+
+/*section 1*/
+.row-1{
+  display: flex; 
+  justify-content:space-evenly; 
+}
+
+figcaption{
+  font-size: 23px;
+  font-weight:700;
+  color: #000000; 
+}
+
+figcaption:hover{
+  text-decoration: underline 1px;
+}
+
+figure li a{
+  color: black;
+  font-size: 16px;  
+}
+ 
+figure li {
+  color: #0c0c0c;
+  align-content: space-around;
+  list-style-type:disc;
+}
+
+figure li a:hover{
+ text-decoration: 1px underline;
+
+}
+
+/* Section 2*/
+
+
+
+/* .row-2 > row-2-col-1 > col-1{
+  display: flex;
+  justify-content: center;
+} */
+
+/* Basic CSS styles for images and figures */
+.row-2 {
+  display: flex;
+  /* Add any other styles for the row container */
+}
+
+.row-2 figure {
+  margin: 0;
+  padding: 0;
+  /* Add styling for figures */
+}
+
+.row-2 img {
+  max-width: 100%;
+  height: auto;
+  /* Add any other image-specific styles */
+}
+
+/* Example styling for captions */
+figcaption {
+  font-style: italic;
+  font-size: 14px;
+  /* Add any other caption styles */
+}
+
+
+
+
+
+/* Section 3*/
+.row-3{
+  display: flex; 
+  justify-content:space-evenly; 
+}
+
+
+/* Generic styles for news container */
+.news-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 20px;
+  
+}
+
+#main-headline {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* Generic styles for news items */
+.news-item {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px;
+  margin-right: 2rem;
+  /* Adjusted margin */
+  max-width: 20rem;
+  /* Adjusted max-width */
+  transition: transform 0.2s;
+  /* Add a smooth transition for hover effect */
+}
+
+/* Hover effect for news items */
+.news-item:hover {
+  transform: scale(1.02);
+  /* Slightly scale up on hover */
+}
+
+/* Style for headlines */
+.news-item h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style for news item images */
+.news-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style for links */
+.news-item ul{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+} 
+
+.news-item a:hover {
+  text-decoration: underline;
+}
+.small-news-container1{
+  display: flex;
+}
+.small-news-container2{
+  display: flex;
+}
+
+/* Style for bullet points */
+.news-item ul li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.news-item ul li {
+  font-size: 15px;
+  /* Adjusted font size */
+  font-weight: normal;
+  /* Remove bold for list items */
+  margin-bottom: 10px;
+  color: #0c0c0c;
+}
+
+.bigger-news {
+  flex: 2;
+  /* Make it twice as wide as the small news articles */
+  max-width: 100%;
+  transition: transform 0.2s;
+  /* Add a smooth transition for hover effect */
+}
+
+/* Hover effect for the headline news */
+.bigger-news:hover {
+  transform: scale(1.02);
+  /* Slightly scale up on hover */
+}
+
+.news-item.bigger-news {
+  width: 40rem;
+  /* Adjust the width to make it bigger */
+}
+
+#col3-first-news {
+  margin-top: -8rem;
+}
+
+#col3-second-news {
+  margin-top: -2rem;
+}
+
+#col3-third-news {
+  display: flex;
+  margin-top: -8rem;
+}
+
+#felx-image {
+  margin-left: -2rem;
+  margin-right: 10px;
+  width: 10rem;
+  height: 5rem;
+}
+
+#col3-third-smallnews {
+  margin-top: 0rem;
+}
+
+#col4-first-news {
+  margin-top: -2rem;
+  margin-bottom: 4rem;
+}
+
+#col4-second-news {
+  display: flex;
+  margin-top: 21rem;
+  margin-left: -21rem;
+}
+
+#col4-second1-news {
+  display: flex;
+  margin-top: 28rem;
+  margin-left: -24rem;
+}
+
+
+#col4-third-news {
+  margin-left: -1rem;
+  margin-top: -2rem;
+}
+
+#below-main-news {
+  display: flex;
+  margin-top: 0rem;
+  max-width: 40rem;
+}
+
+
+/* Section 4 ad-1*/
+.ads-row-1{
+  display: flex; 
+  justify-content:space-between; 
+}
+.ads-lable{
+  display: flex;
+  justify-content: space-evenly;
+}
+.ads-lable li {
+  list-style: none;  
+}
+.ads-lable li a{
+  color: #0c0c0c;
+}
+.ads-lable li a:hover{
+  text-decoration: underline;
+}
+.news-container .ads-row-3{
+  float: left;
+}
+
+
+
+
+
+
+/*------------------------------------Footer--------------------------*/
+ /* foot-Panel1*/
+ .foot-panel1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: #e6e6e6;
+  height: 50px;
+  font-size: 16px;
+  border-top: 0.1px solid #e6e6e6;
+  cursor: pointer;
+}
+.foot-panel1:hover{
+  background-color: #171717;
+}
+
+
+/* Style the footer container */
+.foot-panel2 {
+  background-color: #0c0c0c;
+  color: #fff;
+  padding: 40px 10px;
+  border-top: 0.1px solid #e6e6e6;
+}
+
+/* Style the search input */
+.Search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  width: 95%;
+  margin: 40px 20px;
+  outline: none;
+}
+
+/* Style section headings */
+section{
+  display: inline-table;
+  justify-content:space-evenly;
+  justify-content: space-between;
+  margin-left: 60px;
+}
+section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Style the lists inside sections */
+section ul {
+  list-style: none;
+}
+
+section ul li {
+  margin-bottom: 5px;
+}
+
+section ul li a {
+  text-decoration: none;
+  color: #e6e6e6;
+  font-size: 14px;
+ 
+}
+
+section ul li a:hover{
+  color: white;
+  text-decoration:dashed;
+}
+
+.last-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 0.1px solid #e6e6e6;
+  border-bottom: 0.1px solid #e6e6e6;
+  padding: 20px 0px 20px 0px;
+  margin: 25px 10px 5px 10px;
+  
+}
+.left-section{
+  display: flex;
+  align-items: center;
+}
+.right-section{
+  display: flex;
+  align-items: center;
+}
+.right-section li{
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+ /* foot-Panel4 */
+ .foot-panel4{
+  background-color: #0c0c0c;
+  color: #e6e6e6;
+  height: 140px;
+  font-size: 13px;
+  text-align: center;
+
+}
+.pages{
+ padding-top:15px;
+}
+
+.pages a:hover{
+text-decoration: dashed;
+color: white;
+}
+.copyright{
+  padding-top: 5px;
+  
+}
+.foot-panel4 a{
+  padding: 12px;
+  cursor: pointer;
+}
+
+/* Responsive */ 
+@media (max-width: 768px) {
+
+  /* Header*/ 
+  nav {
+    position: static;
+    text-align: center;
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  nav ul {
+    padding: 5px 0;
+    display: block;
+  }
+
+  nav li {
+    margin: 0;
+    padding: 10px;
+    display: inline-block;
+  }
+
+  .headline-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .headline-links li {
+    margin: 5px;
+  }
+
+  /*News Sections*/
+  .news-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .news-item {
+    max-width: 20rem;
+    margin: 10px 0;
+    margin-bottom: -2rem;
+  }
+
+  .news-item.bigger-news {
+    width: 100rem;
+    /* Adjust the width to make it bigger */
+  }
+
+  .news-item.bigger-news img {
+    height: 25rem;
+    /* Adjust the width to make it bigger */
+  }
+
+  .news-item ul {
+    list-style-type: disc;
+    margin-left: -2rem;
+  }
+
+  .news-item ul li {
+    font-size: 15px;
+    /* Adjusted font size */
+    font-weight: normal;
+    /* Remove bold for list items */
+    margin-bottom: 10px;
+  }
+
+  #col4-first-news {
+    margin-top: 3rem;
+  }
+
+  #col4-second-news {
+    display: flex;
+    margin-top: -5rem;
+    margin-left: 0rem;
+  }
+
+  #col4-second1-news {
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 0rem;
+    margin-bottom: 3rem;
+  }
+
+  #col4-third-news {
+    margin-left: 0rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+  }
+  
+  #below-main-news {
+    display: flex;
+    margin-top: 1rem;
+    max-width: 20rem;
+    margin-bottom: 1rem;
+  }
+
+  #col3-main{
+    margin-bottom: 5rem;
+  }
+
+  #same-news{
+    margin-left: -2rem;
+  } 
+
+
+
+  /*Footer*/
+  .footer {
+    text-align: center;
+  }
+
+  .foot-panel1 {
+    justify-content: center;
+  }
+  .foot-panel2 {
+    padding: 20px 5px;
+  }
+
+  .Search-input {
+    width: 100%;
+    margin: 20px 5px;
+  }
+
+  section {
+    display: block;
+    margin: 10px 0;
+  }
+
+  section h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  section ul li {
+    margin-bottom: 3px;
+  }
+
+  .last-section {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    margin: 10px 5px;
+  }
+
+  .left-section,
+  .right-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .right-section li {
+    margin: 10px;
+    font-weight: normal;
+  }
+
+  .foot-panel4 {
+    height: auto;
+    padding: 15px 5px;
+  }
+
+  .pages {
+    padding-top: 10px;
+  }
+
+  .copyright {
+    padding-top: 5px;
+    font-size: 12px;
+  }
+
+  .foot-panel4 a {
+    padding: 5px;
+  }
+}
